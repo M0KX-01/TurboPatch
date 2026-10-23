@@ -289,17 +289,6 @@ Yes. Frosted glass needs Windows 11, so Windows 10 shows blurred glass instead; 
 - DLSS 5 add-ons are community projects; some files are shared only on their Discord servers.
 - One game at a time gets automatic while-playing settings.
 
-## 🛠️ Build it yourself
-
-You need Windows 10/11 and the [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
-
-- **Run it:** double-click `build.cmd`; the `publish` folder opens with `TurboPatch.exe`.
-- **Make a shareable zip:** double-click `release.cmd`; the `release` folder opens with
-  `TurboPatch-<version>-win-x64.zip` and its checksum.
-- **Visual Studio 2022:** open `TurboPatch.sln` and press F5.
-
-How each integration works, the files TurboPatch creates, the project layout and how translations
-work are in **[docs/HOW-IT-WORKS.md](docs/HOW-IT-WORKS.md)**.
 
 ## 🌍 Help translate
 
