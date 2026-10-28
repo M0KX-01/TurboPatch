@@ -68,7 +68,7 @@ originals: TurboPatch links to them and drives them for you.
    with Start menu and desktop shortcuts.
 3. Start **TurboPatch**. It finds your games straight away.
 
-**Updates happen on their own.** Once a day TurboPatch checks this page, downloads a new version in the
+**Updates happen on their own.** Once a day TurboPatch checks this page if the option is checked, downloads a new version in the
 background and installs it when you close the app, in a few seconds and without questions. In a hurry?
 *Settings → Updates → Update now*, then *Restart to update*. Only TurboPatch updates itself: your mods and
 tools are never updated without you.
@@ -351,19 +351,6 @@ Yes. Frosted glass needs Windows 11, so Windows 10 shows blurred glass instead; 
 - DLSS 5 add-ons are community projects; some files are shared only on their Discord servers.
 - Game details come from Steam, Wikidata and HowLongToBeat, so small indie or very new games may have gaps.
 - One game at a time gets automatic while-playing settings.
-
-## 🛠️ Build it yourself
-
-You need Windows 10/11 and the [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
-
-- **Run it:** double-click `build.cmd`; the `publish` folder opens with `TurboPatch.exe`.
-- **Make the installer and a shareable zip:** double-click `release.cmd`; results land in the `release` folder.
-- **Visual Studio 2022:** open `TurboPatch.sln` and press F5.
-- **Tests:** `dotnet test tests\TurboPatch.Core.Tests`.
-
-How each integration works, every page and setting in detail, the files TurboPatch creates, publishing a
-release and the project layout are in **[docs/HOW-IT-WORKS.md](docs/HOW-IT-WORKS.md)**. What changed in each
-version is in the **[changelog](CHANGELOG.md)**.
 
 ## 🌍 Help translate
 
