@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" font-family="'Segoe UI', 'Segoe UI Variable', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#081113"/><stop offset="1" stop-color="#0D1B1D"/></linearGradient>
+<linearGradient id="waveFill" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#1E7A6C" stop-opacity=".35"/><stop offset="1" stop-color="#0B2522" stop-opacity="0"/></linearGradient>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+  <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".45"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="scrim" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#000" stop-opacity=".72"/><stop offset=".65" stop-color="#000" stop-opacity=".05"/>
+  <stop offset="1" stop-color="#000" stop-opacity="0"/></linearGradient>
+<linearGradient id="scrimB" x1="0" y1="0" x2="0" y2="1">
+  <stop offset=".45" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".7"/></linearGradient>
+<clipPath id="cardclip"><rect width="960" height="280" rx="18"/></clipPath><clipPath id="s1"><rect x="400" y="50" width="228" height="160" rx="10"/></clipPath><linearGradient id="s1g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A1206"/><stop offset=".55" stop-color="#C2511A"/><stop offset="1" stop-color="#F2A541"/></linearGradient><clipPath id="s2"><rect x="718" y="50" width="210" height="160" rx="10"/></clipPath><linearGradient id="s2g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A1206"/><stop offset=".55" stop-color="#C2511A"/><stop offset="1" stop-color="#F2A541"/></linearGradient></defs>
+<rect width="960" height="280" rx="18" fill="url(#bg)"/>
+<g clip-path="url(#cardclip)"></g>
+<rect x=".5" y=".5" width="959" height="279" rx="18" fill="none" stroke="#FFFFFF1F"/>
+<text x="40" y="52" font-size="11.5" fill="#93A4A8" font-weight="700" text-anchor="start" letter-spacing="1.5">KEYBOARD</text>
+<rect x="40" y="69" width="58" height="38" rx="8" fill="#000" fill-opacity=".45"/><rect x="40" y="66" width="58" height="38" rx="8" fill="#1A2729" stroke="#FFFFFF33"/><text x="69.0" y="90.5" font-size="14" fill="#F2F6F7" font-weight="600" text-anchor="middle" >Ctrl</text>
+<text x="109" y="91" font-size="16" fill="#93A4A8" font-weight="600" text-anchor="middle" >+</text>
+<rect x="120" y="69" width="49" height="38" rx="8" fill="#000" fill-opacity=".45"/><rect x="120" y="66" width="49" height="38" rx="8" fill="#1A2729" stroke="#FFFFFF33"/><text x="144.5" y="90.5" font-size="14" fill="#F2F6F7" font-weight="600" text-anchor="middle" >Alt</text>
+<text x="180" y="91" font-size="16" fill="#93A4A8" font-weight="600" text-anchor="middle" >+</text>
+<rect x="191" y="69" width="40" height="38" rx="8" fill="#000" fill-opacity=".45"/><rect x="191" y="66" width="40" height="38" rx="8" fill="#1A2729" stroke="#FFFFFF33"/><text x="211.0" y="90.5" font-size="14" fill="#F2F6F7" font-weight="600" text-anchor="middle" >P</text>
+<text x="40" y="148" font-size="11.5" fill="#93A4A8" font-weight="700" text-anchor="start" letter-spacing="1.5">CONTROLLER · HOLD 1 S</text>
+<rect x="40" y="164" width="56" height="30" rx="15" fill="#1A2729" stroke="#FFFFFF33"/><text x="68" y="184" font-size="13" fill="#F2F6F7" font-weight="700" text-anchor="middle" >LT</text>
+<text x="107" y="185" font-size="16" fill="#93A4A8" font-weight="600" text-anchor="middle" >+</text>
+<rect x="118" y="164" width="56" height="30" rx="15" fill="#1A2729" stroke="#FFFFFF33"/><text x="146" y="184" font-size="13" fill="#F2F6F7" font-weight="700" text-anchor="middle" >RT</text>
+<text x="185" y="185" font-size="16" fill="#93A4A8" font-weight="600" text-anchor="middle" >+</text>
+<circle cx="213" cy="179" r="17" fill="#1A2729" stroke="#FFFFFF33"/>
+<circle cx="213" cy="179" r="9" fill="none" stroke="#F2F6F7" stroke-opacity=".6" stroke-width="1.5"/>
+<text x="213" y="183.5" font-size="10.5" fill="#F2F6F7" font-weight="700" text-anchor="middle" >LS</text>
+<text x="242" y="184" font-size="12.5" fill="#93A4A8" font-weight="400" text-anchor="start" >left stick, pressed</text>
+<text x="40" y="236" font-size="12.5" fill="#93A4A8" font-weight="400" text-anchor="start" >Both can be changed in Settings → In game</text>
+<path d="M318,140 H384" stroke="#4FE0C8" stroke-width="2" stroke-dasharray="4 5"/><path d="M382,134 L392,140 L382,146" fill="none" stroke="#4FE0C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="355.0" y="128" font-size="11.5" fill="#4FE0C8" font-weight="600" text-anchor="middle" >press</text>
+<g clip-path="url(#s1)"><rect x="400" y="50" width="228" height="160" fill="url(#s1g)"/><circle cx="468.4" cy="133.2" r="32.0" fill="#FFE0A3" opacity=".85"/><path d="M400,165.2 Q457.0,138.0 514.0,162.0 T628,149.2 L628,210 L400,210 Z" fill="#7A2A0C"/><path d="M400,187.6 Q479.8,162.0 559.6,184.4 T628,178.0 L628,210 L400,210 Z" fill="#3D1305"/><path d="M532.24,210 L550.48,168.4 L559.6,168.4 L568.72,210 Z" fill="#F2A541" opacity=".35"/></g>
+<rect x="400" y="50" width="228" height="160" rx="10" fill="#0A1418" fill-opacity=".62"/>
+<rect x="400" y="50" width="228" height="160" rx="10" fill="none" stroke="#9EE7FF" stroke-opacity=".55" stroke-width="1.5"/>
+<circle cx="514" cy="112" r="26" fill="#000" fill-opacity=".45" stroke="#BFF3FF" stroke-opacity=".8" stroke-width="1.6"/>
+<rect x="504" y="101" width="7" height="22" rx="2" fill="#E6FBFF"/><rect x="517" y="101" width="7" height="22" rx="2" fill="#E6FBFF"/>
+<text x="514" y="166" font-size="16" fill="#fff" font-weight="700" text-anchor="middle" >Suspended</text>
+<text x="514" y="186" font-size="12.5" fill="#D7EEF2" font-weight="500" text-anchor="middle" >0% CPU · 0% GPU</text>
+<text x="514" y="238" font-size="12.5" fill="#93A4A8" font-weight="400" text-anchor="middle" >minimized first, then frozen</text>
+<path d="M636,140 H702" stroke="#4FE0C8" stroke-width="2" stroke-dasharray="4 5"/><path d="M700,134 L710,140 L700,146" fill="none" stroke="#4FE0C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="673.0" y="128" font-size="11.5" fill="#4FE0C8" font-weight="600" text-anchor="middle" >same again</text>
+<g clip-path="url(#s2)"><rect x="718" y="50" width="210" height="160" fill="url(#s2g)"/><circle cx="781.0" cy="133.2" r="32.0" fill="#FFE0A3" opacity=".85"/><path d="M718,165.2 Q770.5,138.0 823.0,162.0 T928,149.2 L928,210 L718,210 Z" fill="#7A2A0C"/><path d="M718,187.6 Q791.5,162.0 865.0,184.4 T928,178.0 L928,210 L718,210 Z" fill="#3D1305"/><path d="M839.8,210 L856.6,168.4 L865.0,168.4 L873.4,210 Z" fill="#F2A541" opacity=".35"/></g>
+<rect x="718" y="50" width="210" height="160" rx="10" fill="url(#scrimB)"/>
+<path d="M808,98 L836,114 L808,130 Z" fill="#fff" fill-opacity=".9"/>
+<text x="823" y="186" font-size="13.5" fill="#fff" font-weight="700" text-anchor="middle" >Back where you left off</text>
+<text x="823" y="238" font-size="12.5" fill="#93A4A8" font-weight="400" text-anchor="middle" >no reload, no lost progress</text>
+</svg>

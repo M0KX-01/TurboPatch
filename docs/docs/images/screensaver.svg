@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" font-family="'Segoe UI', 'Segoe UI Variable', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0" stop-color="#081113"/><stop offset="1" stop-color="#0D1B1D"/></linearGradient>
+<linearGradient id="waveFill" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#1E7A6C" stop-opacity=".35"/><stop offset="1" stop-color="#0B2522" stop-opacity="0"/></linearGradient>
+<filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+  <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".45"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="scrim" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#000" stop-opacity=".72"/><stop offset=".65" stop-color="#000" stop-opacity=".05"/>
+  <stop offset="1" stop-color="#000" stop-opacity="0"/></linearGradient>
+<linearGradient id="scrimB" x1="0" y1="0" x2="0" y2="1">
+  <stop offset=".45" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".7"/></linearGradient>
+<clipPath id="cardclip"><rect width="960" height="300" rx="18"/></clipPath><clipPath id="ss"><rect x="28" y="26" width="440" height="248" rx="10"/></clipPath><linearGradient id="ssF" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity="1"/><stop offset=".22" stop-color="#000" stop-opacity="0"/><stop offset=".78" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000"/></linearGradient><clipPath id="ssa"><rect x="28" y="76" width="440" height="150" rx="10"/></clipPath><linearGradient id="ssag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A1206"/><stop offset=".55" stop-color="#C2511A"/><stop offset="1" stop-color="#F2A541"/></linearGradient></defs>
+<rect width="960" height="300" rx="18" fill="url(#bg)"/>
+<g clip-path="url(#cardclip)"></g>
+<rect x=".5" y=".5" width="959" height="299" rx="18" fill="none" stroke="#FFFFFF1F"/>
+<g clip-path="url(#ss)"><rect x="28" y="26" width="440" height="248" fill="#000"/>
+<g clip-path="url(#ssa)"><rect x="28" y="76" width="440" height="150" fill="url(#ssag)"/><circle cx="160.0" cy="154.0" r="30.0" fill="#FFE0A3" opacity=".85"/><path d="M28,184.0 Q138.0,158.5 248.0,181.0 T468,169.0 L468,226 L28,226 Z" fill="#7A2A0C"/><path d="M28,205.0 Q182.0,181.0 336.0,202.0 T468,196.0 L468,226 L28,226 Z" fill="#3D1305"/><path d="M283.2,226 L318.40000000000003,187.0 L336.0,187.0 L353.6,226 Z" fill="#F2A541" opacity=".35"/></g>
+<rect x="28" y="76" width="440" height="150" fill="url(#ssF)"/>
+<text x="450" y="240" font-size="15" fill="#fff" font-weight="700" text-anchor="end" >Ember Road</text>
+<text x="450" y="258" font-size="11.5" fill="#C9D1D3" font-weight="400" text-anchor="end" >21:40 · Wednesday 28 October</text>
+</g>
+<rect x="28" y="26" width="440" height="248" rx="10" fill="none" stroke="#FFFFFF2A"/>
+<text x="512" y="66" font-size="19" fill="#F2F6F7" font-weight="700" text-anchor="start" >Screensaver for your TV</text>
+<circle cx="517" cy="102" r="3" fill="#4FE0C8"/>
+<text x="530" y="106" font-size="13" fill="#93A4A8" font-weight="400" text-anchor="start" >Starts after 1, 5 or 10 minutes in Big Picture</text>
+<circle cx="517" cy="128" r="3" fill="#4FE0C8"/>
+<text x="530" y="132" font-size="13" fill="#93A4A8" font-weight="400" text-anchor="start" >A different game's art every 10 seconds, fading through black</text>
+<circle cx="517" cy="154" r="3" fill="#4FE0C8"/>
+<text x="530" y="158" font-size="13" fill="#93A4A8" font-weight="400" text-anchor="start" >The name and time move from corner to corner, so nothing</text>
+<text x="530" y="178" font-size="13" fill="#93A4A8" font-weight="400" text-anchor="start" >burns into a TV or an OLED screen</text>
+<circle cx="517" cy="200" r="3" fill="#4FE0C8"/>
+<text x="530" y="204" font-size="13" fill="#93A4A8" font-weight="400" text-anchor="start" >Any button, key or mouse move brings you right back</text>
+</svg>
